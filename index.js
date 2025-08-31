@@ -121,11 +121,11 @@ const config = {
         options: ["Розы","Тюльпаны","Лилии","Ромашки","Орхидеи"],
         answer: 4
       },
-      {
+     /* {
         question: "За что я тебя 1 раз потрогал зимой?",
         options: ["Ноги","Грудь","Талия","Шея","Голова"],
         answer: 1
-      }
+      } */
   ];
   
   let current = 0, correct = 0;
@@ -240,4 +240,5 @@ const config = {
     }
     return arr;
   }
+
 
